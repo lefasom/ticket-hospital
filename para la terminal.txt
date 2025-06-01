@@ -43,4 +43,8 @@ pip install -r requirements.txt
 ---------------------------------------- crear executable
 pip install pyinstaller 
 python -m PyInstaller --onefile app.py
-
+--------------------------
+pip install pyqt5
+------------------------
+git config --global user.name "nahuel94"
+git config --global user.email nahuelpereta244@gmail.com
