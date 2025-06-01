@@ -203,6 +203,11 @@ background-color:#ccc;
         </item>
         <item>
          <property name="text">
+          <string>ninguna</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
           <string>3 x 2 (mediana) </string>
          </property>
         </item>
@@ -225,6 +230,19 @@ background-color:#ccc;
          <string>dimensiones:</string>
         </property>
        </widget>
+      </widget>
+      <widget class="QLabel" name="labelFullMed">
+       <property name="geometry">
+        <rect>
+         <x>270</x>
+         <y>10</y>
+         <width>49</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Fullmed</string>
+       </property>
       </widget>
      </widget>
     </item>

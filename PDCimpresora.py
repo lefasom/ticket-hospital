@@ -76,9 +76,13 @@ class Ui_MainWindow(object):
         self.boxDimensionesImpresion.addItem("")
         self.boxDimensionesImpresion.addItem("")
         self.boxDimensionesImpresion.addItem("")
+        self.boxDimensionesImpresion.addItem("")
         self.label_16 = QtWidgets.QLabel(self.frame_4)
         self.label_16.setGeometry(QtCore.QRect(40, 70, 101, 16))
         self.label_16.setObjectName("label_16")
+        self.labelFullMed = QtWidgets.QLabel(self.frame)
+        self.labelFullMed.setGeometry(QtCore.QRect(270, 10, 49, 16))
+        self.labelFullMed.setObjectName("labelFullMed")
         self.verticalLayout.addWidget(self.frame)
         self.verticalLayout.setStretch(0, 1)
         MainWindow.setCentralWidget(self.centralwidget)
@@ -96,9 +100,11 @@ class Ui_MainWindow(object):
         self.btnImprimir.setText(_translate("MainWindow", "Imprimir"))
         self.label_15.setText(_translate("MainWindow", "hospital:"))
         self.boxDimensionesImpresion.setItemText(0, _translate("MainWindow", "2.25 x 1.25 (Pulsera hospitalaria)"))
-        self.boxDimensionesImpresion.setItemText(1, _translate("MainWindow", "3 x 2 (mediana) "))
-        self.boxDimensionesImpresion.setItemText(2, _translate("MainWindow", "4 x 6 (grande, típica de envíos)"))
+        self.boxDimensionesImpresion.setItemText(1, _translate("MainWindow", "ninguna"))
+        self.boxDimensionesImpresion.setItemText(2, _translate("MainWindow", "3 x 2 (mediana) "))
+        self.boxDimensionesImpresion.setItemText(3, _translate("MainWindow", "4 x 6 (grande, típica de envíos)"))
         self.label_16.setText(_translate("MainWindow", "dimensiones:"))
+        self.labelFullMed.setText(_translate("MainWindow", "Fullmed"))
 
 
 if __name__ == "__main__":
