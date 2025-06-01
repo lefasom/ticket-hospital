@@ -1,2 +1,35 @@
-[2025-05-30 20:48:36] Nombre: e, Apellido: e3, Nro de Turno: 22
-[2025-05-30 22:04:23] Nombre: leo, Apellido: sombra, Nro de Turno: 123
+[2025-06-01 13:44:18] 
+ Hospital: Lagomaggiore 
+=> 
+ Paciente: Leonardo Fabian Sombra, 
+ Dni: 37738351, 
+ Nacimiento: 15/10/1993, 
+ ticket: 2.25 x 1.25 (Pulsera hospitalaria)
+[2025-06-01 13:54:35] 
+ Hospital: notti 
+=> 
+ Paciente: leonardo sombra, 
+ Dni: 37738351, 
+ Nacimiento: 15/10/1993, 
+ ticket: 2.25 x 1.25 (Pulsera hospitalaria)
+[2025-06-01 13:54:59] 
+ Hospital: notti 
+=> 
+ Paciente: leonardo sombra, 
+ Dni: 37738351, 
+ Nacimiento: 15/10/1993, 
+ ticket: 2.25 x 1.25 (Pulsera hospitalaria)
+[2025-06-01 13:57:13] 
+ Hospital: notti 
+=> 
+ Paciente: leonardo sombra, 
+ Dni: 37738351, 
+ Nacimiento: 15/10/1993, 
+ ticket: 2.25 x 1.25 (Pulsera hospitalaria)
+[2025-06-01 13:57:26] 
+ Hospital: s 
+=> 
+ Paciente: s, 
+ Dni: s, 
+ Nacimiento: s, 
+ ticket: 2.25 x 1.25 (Pulsera hospitalaria)
