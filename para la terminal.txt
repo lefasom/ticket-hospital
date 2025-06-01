@@ -1,0 +1,46 @@
+--------------------------- trabajos anteriores --------------------------
+
+
+------------------------- para crear un entorno/ecosistema de trabajo ----------------------
+python -m venv venv
+.\venv\Scripts\activate
+
+------------------------- instalacion de flask ------------------------
+pip install flask
+pip install Flask-PyMongo
+pip install python-dotenv
+
+------------------------- instalando de MYSQL --------------------------------
+pip install mysql-connector-python
+
+-------------------------- instalo para exportar xslx -----------------------------
+python -m pip install openpyxl
+
+
+
+
+
+------------------------ programa actual ---------------------------
+
+
+
+
+----------------------------- para app de escritorio  -----------------------------
+python -m venv venv
+.\venv\Scripts\activate
+----------------------------- nos daremos cuenta que nuestra instalacion 
+----------------------------- de dependencias es ajena,
+----------------------------- gracias al entorno que generamos
+
+---------------------------------------------------------------------------------------
+ ----------------------------- formateo ui a -> py -----------------------------
+python -m PyQt5.uic.pyuic -x PDCimpresora.ui -o PDCimpresora.py
+
+
+-------------------- con esto genero el archivo que guarda las dependencias se genera al ultimo
+python -m pip freeze > requirements.txt 
+pip install -r requirements.txt 
+---------------------------------------- crear executable
+pip install pyinstaller 
+python -m PyInstaller --onefile app.py
+

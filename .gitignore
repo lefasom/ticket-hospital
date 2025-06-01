@@ -1,0 +1,22 @@
+# Archivos y carpetas de Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Archivos de entorno
+.env
+*.env
+
+# Archivos de interfaz generados automáticamente
+*.ui~
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Carpetas de control de versiones internas
+.git/
+# Archivos de compilación de PyInstaller u otros
+dist/
+build/
+*.spec
