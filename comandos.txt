@@ -48,3 +48,30 @@ pip install pyqt5
 ------------------------
 git config --global user.name "nahuel94"
 git config --global user.email nahuelpereta244@gmail.com
+
+--------------------------------- crear el exe con id de seguridad -----------------------
+
+pip install PyQt5 pyinstaller
+pip install pyserial (opcional)
+pip install pyinstaller
+
+# PASO CRÍTICO: Ejecutar ANTES de compilar
+python hardware_id.py --capture
+ Deberías ver:
+✓ ID de hardware autorizado guardado: [ID-ÚNICO]
+✓ Archivo de autorización creado: authorized_hardware.json
+
+. Verificar que funciona localmente
+bash# Probar la aplicación antes de compilar
+python app.py
+
+Deberías ver:
+Ventana de la aplicación abierta
+Título: "PDC Impresora [AUTORIZADO] - ID: [PRIMEROS-8-DÍGITOS]..."
+
+Compilar el ejecutable
+bash# Compilar con todos los archivos necesarios
+python -m PyInstaller --onefile --windowed --add-data "authorized_hardware.json;." --name="PDCimpresora" app.py
+
+
+------------------------------------------------------------------------------------------
