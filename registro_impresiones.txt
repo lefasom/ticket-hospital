@@ -1,0 +1,14 @@
+[2025-06-01 20:04:08] 
+ Hospital: español 
+=> 
+ Paciente: leonardo, 
+ Dni: 23423423, 
+ Nacimiento: 15/10/93, 
+ ticket: 2.25 x 1.25 (Pulsera hospitalaria)
+[2025-06-01 20:05:22] 
+ Hospital: español 
+=> 
+ Paciente: leonardo fabian sombra, 
+ Dni: 37738351, 
+ Nacimiento: 15/10/93, 
+ ticket: 2.25 x 1.25 (Pulsera hospitalaria)
