@@ -49,6 +49,11 @@ pip install pyqt5
 git config --global user.name "nahuel94"
 git config --global user.email nahuelpereta244@gmail.com
 
+---------------------
+git pull origin main (unifica el main del pc con la rama nahuel de la pc).
+
+=======
+
 --------------------------------- crear el exe con id de seguridad -----------------------
 
 pip install PyQt5 pyinstaller
@@ -75,3 +80,4 @@ python -m PyInstaller --onefile --windowed --add-data "authorized_hardware.json;
 
 
 ------------------------------------------------------------------------------------------
+
