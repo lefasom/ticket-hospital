@@ -17,6 +17,6 @@ Thumbs.db
 # Carpetas de control de versiones internas
 .git/
 # Archivos de compilación de PyInstaller u otros
-dist/
-build/
-*.spec
+# dist/
+# build/
+# *.spec
