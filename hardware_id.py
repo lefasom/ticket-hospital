@@ -144,11 +144,10 @@ class HardwareID:
         try:
             with open(auth_file, 'w', encoding='utf-8') as f:
                 json.dump(auth_data, f, indent=2, ensure_ascii=False)
-            print(f"✓ ID de hardware autorizado guardado: {self.authorized_id}")
-            print(f"✓ Archivo de autorización creado: {auth_file}")
+            pass
             return True
         except Exception as e:
-            print(f"✗ Error al crear archivo de autorización: {e}")
+            pass
             return False
     
     def verify_hardware_authorization(self):
@@ -237,25 +236,23 @@ def verify_authorized_hardware():
 
 # Para testing y compilación
 if __name__ == "__main__":
-    print("=== SISTEMA DE PROTECCIÓN POR HARDWARE ===")
+    pass
     
     # Si estamos en modo de captura (desarrollo)
     if len(sys.argv) > 1 and sys.argv[1] == "--capture":
-        print("MODO CAPTURA: Guardando ID de hardware para compilación...")
+        pass
         if capture_authorized_hardware():
-            print("✓ Hardware capturado exitosamente")
-            print("✓ Ahora puedes compilar el ejecutable")
+            pass
         else:
-            print("✗ Error al capturar hardware")
+            pass
     else:
         # Modo verificación normal
         try:
             is_authorized, message = verify_authorized_hardware()
             if is_authorized:
                 hw_id = get_unique_hardware_id()
-                print(f"✓ ACCESO AUTORIZADO")
-                print(f"✓ Hardware ID: {hw_id}")
+                pass
             else:
-                print(f"✗ ACCESO DENEGADO: {message}")
+                pass
         except Exception as e:
-            print(f"✗ ERROR CRÍTICO: {e}")
+            pass
