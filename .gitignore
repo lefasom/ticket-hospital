@@ -22,3 +22,5 @@ build/
 *.spec
 output
 serviceAccountKey.json
+logs_app
+logs_createhid
