@@ -1,0 +1,17 @@
+DEBUG: Hardware ID de la máquina: 8CCB9DC44216244893826A9E0F207835AF7C317C50A241AA5FD7CE2642836B6D
+DEBUG: Firebase Admin SDK inicializado.
+DEBUG: Iniciando verificación de licencia...
+DEBUG: Licencia local encontrada. Verificando...
+ERROR: Falló la validación online de licencia: 'PDCApp' object has no attribute 'save_local_license'
+DEBUG: No hay licencia local válida o la validación online falló. Abriendo ventana de activación.
+DEBUG: Licencia 'FULLMED-5600C609' vinculada y activada a HW ID: 8CCB9DC44216244893826A9E0F207835AF7C317C50A241AA5FD7CE2642836B6D
+DEBUG: Licencia guardada localmente en: C:\Users\lefasom\AppData\Local\FULLMED_Impresora\license.json
+DEBUG: Licencia activada a través de la ventana de activación.
+DEBUG: Hilo de revalidación de licencia iniciado (cada 24 horas).
+Advertencia: Icono no encontrado en C:\Users\lefasom\Desktop\ticket-hospital\icon/icono.ico
+Error en validación online de licencia: Traceback (most recent call last):
+  File "C:\Users\lefasom\Desktop\ticket-hospital\app.py", line 339, in validate_license_online
+    self.save_local_license(license_data)
+    ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'PDCApp' object has no attribute 'save_local_license'. Did you mean: 'load_local_license'?
+
